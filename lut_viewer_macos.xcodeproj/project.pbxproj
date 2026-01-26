@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		98DF86712F277C1300687EAC /* lut_viewer_macosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DF86702F277C1300687EAC /* lut_viewer_macosApp.swift */; };
+		98DF86732F277C1300687EAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DF86722F277C1300687EAC /* ContentView.swift */; };
+		98DF86752F277C1500687EAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98DF86742F277C1500687EAC /* Assets.xcassets */; };
+		98DF86782F277C1500687EAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98DF86772F277C1500687EAC /* Preview Assets.xcassets */; };
+		98DF86832F277C1600687EAC /* lut_viewer_macosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DF86822F277C1600687EAC /* lut_viewer_macosTests.swift */; };
+		98DF868D2F277C1600687EAC /* lut_viewer_macosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DF868C2F277C1600687EAC /* lut_viewer_macosUITests.swift */; };
+		98DF868F2F277C1600687EAC /* lut_viewer_macosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DF868E2F277C1600687EAC /* lut_viewer_macosUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		98DF867F2F277C1600687EAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98DF86652F277C1200687EAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98DF866C2F277C1200687EAC;
+			remoteInfo = lut_viewer_macos;
+		};
+		98DF86892F277C1600687EAC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 98DF86652F277C1200687EAC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 98DF866C2F277C1200687EAC;
+			remoteInfo = lut_viewer_macos;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		98DF866D2F277C1300687EAC /* lut_viewer_macos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lut_viewer_macos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		98DF86702F277C1300687EAC /* lut_viewer_macosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lut_viewer_macosApp.swift; sourceTree = "<group>"; };
+		98DF86722F277C1300687EAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		98DF86742F277C1500687EAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		98DF86772F277C1500687EAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		98DF86792F277C1500687EAC /* lut_viewer_macos.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = lut_viewer_macos.entitlements; sourceTree = "<group>"; };
+		98DF867E2F277C1600687EAC /* lut_viewer_macosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lut_viewer_macosTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98DF86822F277C1600687EAC /* lut_viewer_macosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lut_viewer_macosTests.swift; sourceTree = "<group>"; };
+		98DF86882F277C1600687EAC /* lut_viewer_macosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lut_viewer_macosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		98DF868C2F277C1600687EAC /* lut_viewer_macosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lut_viewer_macosUITests.swift; sourceTree = "<group>"; };
+		98DF868E2F277C1600687EAC /* lut_viewer_macosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lut_viewer_macosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		98DF866A2F277C1200687EAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98DF867B2F277C1600687EAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98DF86852F277C1600687EAC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		98DF86642F277C1200687EAC = {
+			isa = PBXGroup;
+			children = (
+				98DF866F2F277C1300687EAC /* lut_viewer_macos */,
+				98DF86812F277C1600687EAC /* lut_viewer_macosTests */,
+				98DF868B2F277C1600687EAC /* lut_viewer_macosUITests */,
+				98DF866E2F277C1300687EAC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		98DF866E2F277C1300687EAC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				98DF866D2F277C1300687EAC /* lut_viewer_macos.app */,
+				98DF867E2F277C1600687EAC /* lut_viewer_macosTests.xctest */,
+				98DF86882F277C1600687EAC /* lut_viewer_macosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98DF866F2F277C1300687EAC /* lut_viewer_macos */ = {
+			isa = PBXGroup;
+			children = (
+				98DF86702F277C1300687EAC /* lut_viewer_macosApp.swift */,
+				98DF86722F277C1300687EAC /* ContentView.swift */,
+				98DF86742F277C1500687EAC /* Assets.xcassets */,
+				98DF86792F277C1500687EAC /* lut_viewer_macos.entitlements */,
+				98DF86762F277C1500687EAC /* Preview Content */,
+			);
+			path = lut_viewer_macos;
+			sourceTree = "<group>";
+		};
+		98DF86762F277C1500687EAC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				98DF86772F277C1500687EAC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		98DF86812F277C1600687EAC /* lut_viewer_macosTests */ = {
+			isa = PBXGroup;
+			children = (
+				98DF86822F277C1600687EAC /* lut_viewer_macosTests.swift */,
+			);
+			path = lut_viewer_macosTests;
+			sourceTree = "<group>";
+		};
+		98DF868B2F277C1600687EAC /* lut_viewer_macosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				98DF868C2F277C1600687EAC /* lut_viewer_macosUITests.swift */,
+				98DF868E2F277C1600687EAC /* lut_viewer_macosUITestsLaunchTests.swift */,
+			);
+			path = lut_viewer_macosUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		98DF866C2F277C1200687EAC /* lut_viewer_macos */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98DF86922F277C1600687EAC /* Build configuration list for PBXNativeTarget "lut_viewer_macos" */;
+			buildPhases = (
+				98DF86692F277C1200687EAC /* Sources */,
+				98DF866A2F277C1200687EAC /* Frameworks */,
+				98DF866B2F277C1200687EAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = lut_viewer_macos;
+			productName = lut_viewer_macos;
+			productReference = 98DF866D2F277C1300687EAC /* lut_viewer_macos.app */;
+			productType = "com.apple.product-type.application";
+		};
+		98DF867D2F277C1600687EAC /* lut_viewer_macosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98DF86952F277C1600687EAC /* Build configuration list for PBXNativeTarget "lut_viewer_macosTests" */;
+			buildPhases = (
+				98DF867A2F277C1600687EAC /* Sources */,
+				98DF867B2F277C1600687EAC /* Frameworks */,
+				98DF867C2F277C1600687EAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98DF86802F277C1600687EAC /* PBXTargetDependency */,
+			);
+			name = lut_viewer_macosTests;
+			productName = lut_viewer_macosTests;
+			productReference = 98DF867E2F277C1600687EAC /* lut_viewer_macosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		98DF86872F277C1600687EAC /* lut_viewer_macosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98DF86982F277C1600687EAC /* Build configuration list for PBXNativeTarget "lut_viewer_macosUITests" */;
+			buildPhases = (
+				98DF86842F277C1600687EAC /* Sources */,
+				98DF86852F277C1600687EAC /* Frameworks */,
+				98DF86862F277C1600687EAC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				98DF868A2F277C1600687EAC /* PBXTargetDependency */,
+			);
+			name = lut_viewer_macosUITests;
+			productName = lut_viewer_macosUITests;
+			productReference = 98DF86882F277C1600687EAC /* lut_viewer_macosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		98DF86652F277C1200687EAC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					98DF866C2F277C1200687EAC = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					98DF867D2F277C1600687EAC = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 98DF866C2F277C1200687EAC;
+					};
+					98DF86872F277C1600687EAC = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 98DF866C2F277C1200687EAC;
+					};
+				};
+			};
+			buildConfigurationList = 98DF86682F277C1200687EAC /* Build configuration list for PBXProject "lut_viewer_macos" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 98DF86642F277C1200687EAC;
+			productRefGroup = 98DF866E2F277C1300687EAC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				98DF866C2F277C1200687EAC /* lut_viewer_macos */,
+				98DF867D2F277C1600687EAC /* lut_viewer_macosTests */,
+				98DF86872F277C1600687EAC /* lut_viewer_macosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		98DF866B2F277C1200687EAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98DF86782F277C1500687EAC /* Preview Assets.xcassets in Resources */,
+				98DF86752F277C1500687EAC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98DF867C2F277C1600687EAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98DF86862F277C1600687EAC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		98DF86692F277C1200687EAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98DF86732F277C1300687EAC /* ContentView.swift in Sources */,
+				98DF86712F277C1300687EAC /* lut_viewer_macosApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98DF867A2F277C1600687EAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98DF86832F277C1600687EAC /* lut_viewer_macosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		98DF86842F277C1600687EAC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				98DF868F2F277C1600687EAC /* lut_viewer_macosUITestsLaunchTests.swift in Sources */,
+				98DF868D2F277C1600687EAC /* lut_viewer_macosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		98DF86802F277C1600687EAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98DF866C2F277C1200687EAC /* lut_viewer_macos */;
+			targetProxy = 98DF867F2F277C1600687EAC /* PBXContainerItemProxy */;
+		};
+		98DF868A2F277C1600687EAC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 98DF866C2F277C1200687EAC /* lut_viewer_macos */;
+			targetProxy = 98DF86892F277C1600687EAC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		98DF86902F277C1600687EAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		98DF86912F277C1600687EAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		98DF86932F277C1600687EAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = lut_viewer_macos/lut_viewer_macos.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"lut_viewer_macos/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dorian.maigrot.lut-viewer-macos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		98DF86942F277C1600687EAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = lut_viewer_macos/lut_viewer_macos.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"lut_viewer_macos/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dorian.maigrot.lut-viewer-macos";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		98DF86962F277C1600687EAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dorian.maigrot.lut-viewer-macosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lut_viewer_macos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/lut_viewer_macos";
+			};
+			name = Debug;
+		};
+		98DF86972F277C1600687EAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dorian.maigrot.lut-viewer-macosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/lut_viewer_macos.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/lut_viewer_macos";
+			};
+			name = Release;
+		};
+		98DF86992F277C1600687EAC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dorian.maigrot.lut-viewer-macosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = lut_viewer_macos;
+			};
+			name = Debug;
+		};
+		98DF869A2F277C1600687EAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dorian.maigrot.lut-viewer-macosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = lut_viewer_macos;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		98DF86682F277C1200687EAC /* Build configuration list for PBXProject "lut_viewer_macos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98DF86902F277C1600687EAC /* Debug */,
+				98DF86912F277C1600687EAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98DF86922F277C1600687EAC /* Build configuration list for PBXNativeTarget "lut_viewer_macos" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98DF86932F277C1600687EAC /* Debug */,
+				98DF86942F277C1600687EAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98DF86952F277C1600687EAC /* Build configuration list for PBXNativeTarget "lut_viewer_macosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98DF86962F277C1600687EAC /* Debug */,
+				98DF86972F277C1600687EAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		98DF86982F277C1600687EAC /* Build configuration list for PBXNativeTarget "lut_viewer_macosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				98DF86992F277C1600687EAC /* Debug */,
+				98DF869A2F277C1600687EAC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 98DF86652F277C1200687EAC /* Project object */;
+}
