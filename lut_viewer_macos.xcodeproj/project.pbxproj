@@ -7,13 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9814B7122F35F6FC00EF8DF8 /* CubeLUT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9814B7112F35F6FC00EF8DF8 /* CubeLUT.swift */; };
+		9814B7142F35F71F00EF8DF8 /* LUTApplier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9814B7132F35F71F00EF8DF8 /* LUTApplier.swift */; };
+		9814B7162F35F74E00EF8DF8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9814B7152F35F74E00EF8DF8 /* ContentView.swift */; };
+		9814B7182F36059400EF8DF8 /* LutCubeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9814B7172F36059400EF8DF8 /* LutCubeView.swift */; };
+		981FA5C22F3881470044DB9B /* CubeWriter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 981FA5C12F3881470044DB9B /* CubeWriter.swift */; };
+		98A0B2AA2F37545D008551AA /* LUTExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98A0B2A92F37545D008551AA /* LUTExporter.swift */; };
+		98CA22AB2F503EAF0036228C /* DPXReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98CA22AA2F503EAF0036228C /* DPXReader.swift */; };
+		98CA22AE2F56F5430036228C /* ReferenceLUTs in Resources */ = {isa = PBXBuildFile; fileRef = 98CA22AD2F56F5430036228C /* ReferenceLUTs */; };
+		98CA22B02F56F5550036228C /* ReferenceImages in Resources */ = {isa = PBXBuildFile; fileRef = 98CA22AF2F56F5550036228C /* ReferenceImages */; };
+		98CA22B12F56F8570036228C /* ReferenceImages in Resources */ = {isa = PBXBuildFile; fileRef = 98CA22AF2F56F5550036228C /* ReferenceImages */; };
+		98CA22B22F56F8580036228C /* ReferenceImages in Resources */ = {isa = PBXBuildFile; fileRef = 98CA22AF2F56F5550036228C /* ReferenceImages */; };
+		98CA22B32F56F85B0036228C /* ReferenceLUTs in Resources */ = {isa = PBXBuildFile; fileRef = 98CA22AD2F56F5430036228C /* ReferenceLUTs */; };
+		98CA22B42F56F85C0036228C /* ReferenceLUTs in Resources */ = {isa = PBXBuildFile; fileRef = 98CA22AD2F56F5430036228C /* ReferenceLUTs */; };
 		98DF86712F277C1300687EAC /* lut_viewer_macosApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DF86702F277C1300687EAC /* lut_viewer_macosApp.swift */; };
-		98DF86732F277C1300687EAC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DF86722F277C1300687EAC /* ContentView.swift */; };
 		98DF86752F277C1500687EAC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98DF86742F277C1500687EAC /* Assets.xcassets */; };
 		98DF86782F277C1500687EAC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98DF86772F277C1500687EAC /* Preview Assets.xcassets */; };
 		98DF86832F277C1600687EAC /* lut_viewer_macosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DF86822F277C1600687EAC /* lut_viewer_macosTests.swift */; };
 		98DF868D2F277C1600687EAC /* lut_viewer_macosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DF868C2F277C1600687EAC /* lut_viewer_macosUITests.swift */; };
 		98DF868F2F277C1600687EAC /* lut_viewer_macosUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98DF868E2F277C1600687EAC /* lut_viewer_macosUITestsLaunchTests.swift */; };
+		AA01000100000001AABBCCDD /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA01000000000001AABBCCDD /* ImageLoader.swift */; };
+		AA01000300000001AABBCCDD /* HDRImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA01000200000001AABBCCDD /* HDRImageView.swift */; };
+		AA01000500000001AABBCCDD /* ReferenceLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA01000400000001AABBCCDD /* ReferenceLibrary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +49,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		98DF866D2F277C1300687EAC /* lut_viewer_macos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lut_viewer_macos.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9814B7112F35F6FC00EF8DF8 /* CubeLUT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CubeLUT.swift; sourceTree = "<group>"; };
+		9814B7132F35F71F00EF8DF8 /* LUTApplier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LUTApplier.swift; sourceTree = "<group>"; };
+		9814B7152F35F74E00EF8DF8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		9814B7172F36059400EF8DF8 /* LutCubeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LutCubeView.swift; sourceTree = "<group>"; };
+		981FA5C12F3881470044DB9B /* CubeWriter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CubeWriter.swift; path = ../../../../../Desktop/CubeWriter.swift; sourceTree = "<group>"; };
+		98A0B2A92F37545D008551AA /* LUTExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LUTExporter.swift; sourceTree = "<group>"; };
+		98CA22AA2F503EAF0036228C /* DPXReader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DPXReader.swift; sourceTree = "<group>"; };
+		98CA22AD2F56F5430036228C /* ReferenceLUTs */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ReferenceLUTs; sourceTree = "<group>"; };
+		98CA22AF2F56F5550036228C /* ReferenceImages */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ReferenceImages; sourceTree = "<group>"; };
+		98DF866D2F277C1300687EAC /* LUTviewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LUTviewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98DF86702F277C1300687EAC /* lut_viewer_macosApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lut_viewer_macosApp.swift; sourceTree = "<group>"; };
-		98DF86722F277C1300687EAC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		98DF86742F277C1500687EAC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98DF86772F277C1500687EAC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		98DF86792F277C1500687EAC /* lut_viewer_macos.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = lut_viewer_macos.entitlements; sourceTree = "<group>"; };
@@ -45,6 +68,9 @@
 		98DF86882F277C1600687EAC /* lut_viewer_macosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = lut_viewer_macosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		98DF868C2F277C1600687EAC /* lut_viewer_macosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lut_viewer_macosUITests.swift; sourceTree = "<group>"; };
 		98DF868E2F277C1600687EAC /* lut_viewer_macosUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = lut_viewer_macosUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AA01000000000001AABBCCDD /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		AA01000200000001AABBCCDD /* HDRImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HDRImageView.swift; sourceTree = "<group>"; };
+		AA01000400000001AABBCCDD /* ReferenceLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceLibrary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,9 +98,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		98CA22AC2F56F4310036228C /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				98CA22AF2F56F5550036228C /* ReferenceImages */,
+				98CA22AD2F56F5430036228C /* ReferenceLUTs */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
 		98DF86642F277C1200687EAC = {
 			isa = PBXGroup;
 			children = (
+				98CA22AC2F56F4310036228C /* Ressources */,
+				981FA5C12F3881470044DB9B /* CubeWriter.swift */,
+				98A0B2A92F37545D008551AA /* LUTExporter.swift */,
+				9814B7112F35F6FC00EF8DF8 /* CubeLUT.swift */,
+				9814B7172F36059400EF8DF8 /* LutCubeView.swift */,
+				98CA22AA2F503EAF0036228C /* DPXReader.swift */,
+				AA01000400000001AABBCCDD /* ReferenceLibrary.swift */,
+				AA01000000000001AABBCCDD /* ImageLoader.swift */,
+				AA01000200000001AABBCCDD /* HDRImageView.swift */,
+				9814B7132F35F71F00EF8DF8 /* LUTApplier.swift */,
 				98DF866F2F277C1300687EAC /* lut_viewer_macos */,
 				98DF86812F277C1600687EAC /* lut_viewer_macosTests */,
 				98DF868B2F277C1600687EAC /* lut_viewer_macosUITests */,
@@ -85,7 +130,7 @@
 		98DF866E2F277C1300687EAC /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				98DF866D2F277C1300687EAC /* lut_viewer_macos.app */,
+				98DF866D2F277C1300687EAC /* LUTviewer.app */,
 				98DF867E2F277C1600687EAC /* lut_viewer_macosTests.xctest */,
 				98DF86882F277C1600687EAC /* lut_viewer_macosUITests.xctest */,
 			);
@@ -95,8 +140,8 @@
 		98DF866F2F277C1300687EAC /* lut_viewer_macos */ = {
 			isa = PBXGroup;
 			children = (
+				9814B7152F35F74E00EF8DF8 /* ContentView.swift */,
 				98DF86702F277C1300687EAC /* lut_viewer_macosApp.swift */,
-				98DF86722F277C1300687EAC /* ContentView.swift */,
 				98DF86742F277C1500687EAC /* Assets.xcassets */,
 				98DF86792F277C1500687EAC /* lut_viewer_macos.entitlements */,
 				98DF86762F277C1500687EAC /* Preview Content */,
@@ -146,7 +191,7 @@
 			);
 			name = lut_viewer_macos;
 			productName = lut_viewer_macos;
-			productReference = 98DF866D2F277C1300687EAC /* lut_viewer_macos.app */;
+			productReference = 98DF866D2F277C1300687EAC /* LUTviewer.app */;
 			productType = "com.apple.product-type.application";
 		};
 		98DF867D2F277C1600687EAC /* lut_viewer_macosTests */ = {
@@ -192,6 +237,9 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
@@ -233,8 +281,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98CA22B02F56F5550036228C /* ReferenceImages in Resources */,
 				98DF86782F277C1500687EAC /* Preview Assets.xcassets in Resources */,
 				98DF86752F277C1500687EAC /* Assets.xcassets in Resources */,
+				98CA22AE2F56F5430036228C /* ReferenceLUTs in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +292,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98CA22B32F56F85B0036228C /* ReferenceLUTs in Resources */,
+				98CA22B12F56F8570036228C /* ReferenceImages in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +301,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				98CA22B42F56F85C0036228C /* ReferenceLUTs in Resources */,
+				98CA22B22F56F8580036228C /* ReferenceImages in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +313,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98DF86732F277C1300687EAC /* ContentView.swift in Sources */,
+				98A0B2AA2F37545D008551AA /* LUTExporter.swift in Sources */,
+				98CA22AB2F503EAF0036228C /* DPXReader.swift in Sources */,
+				AA01000500000001AABBCCDD /* ReferenceLibrary.swift in Sources */,
+				AA01000100000001AABBCCDD /* ImageLoader.swift in Sources */,
+				AA01000300000001AABBCCDD /* HDRImageView.swift in Sources */,
+				9814B7162F35F74E00EF8DF8 /* ContentView.swift in Sources */,
+				9814B7182F36059400EF8DF8 /* LutCubeView.swift in Sources */,
+				9814B7142F35F71F00EF8DF8 /* LUTApplier.swift in Sources */,
 				98DF86712F277C1300687EAC /* lut_viewer_macosApp.swift in Sources */,
+				9814B7122F35F6FC00EF8DF8 /* CubeLUT.swift in Sources */,
+				981FA5C22F3881470044DB9B /* CubeWriter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,6 +364,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -350,7 +414,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 13.7;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -364,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -407,9 +472,10 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
-				MACOSX_DEPLOYMENT_TARGET = 13.7;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 			};
@@ -420,6 +486,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = lut_viewer_macos/lut_viewer_macos.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -427,6 +494,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"lut_viewer_macos/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = LUTviewer;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -434,7 +503,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dorian.maigrot.lut-viewer-macos";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LUTviewer;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -445,6 +514,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_ENTITLEMENTS = lut_viewer_macos/lut_viewer_macos.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -452,6 +522,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"lut_viewer_macos/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = LUTviewer;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.video";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -459,7 +531,7 @@
 				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dorian.maigrot.lut-viewer-macos";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = LUTviewer;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -473,7 +545,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 13.7;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dorian.maigrot.lut-viewer-macosTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -491,7 +563,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 13.7;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.dorian.maigrot.lut-viewer-macosTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
