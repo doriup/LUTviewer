@@ -21,6 +21,10 @@ Since this application is not signed with an Apple Developer account, macOS may 
 2.  Click **Open** in the dialog that appears.
 3.  Alternatively, if it still won't open, go to **System Settings > Privacy & Security** and click **Open Anyway** at the bottom.
 
+## Download
+
+You can download the latest pre-built version (Universal Binary for Intel & Silicon) from the **[Releases](https://github.com/doriup/LUTviewer/releases)** page.
+
 ## Development
 
 The project is built using Swift and SwiftUI for macOS.
