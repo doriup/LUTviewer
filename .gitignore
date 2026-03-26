@@ -1,6 +1,48 @@
-.DS_Store
+# Xcode
+#
+# gitignore contributors: use the `git check-ignore -v .` command
+# to debug why a file is ignored.
+
+# Build artifacts
 build/
 DerivedData/
-*.xcworkspace
+
+# Project settings
 xcuserdata/
 *.xcuserstate
+project.xcworkspace/contents.xcworkspacedata
+# Note: if you want to share scheme settings, comment out the following line:
+# xcshareddata/
+
+# macOS
+.DS_Store
+*.swp
+*.lock
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+
+# User-specific
+*.xcuserdatad
+
+# Swift Package Manager
+#
+# Add this line if you want to avoid checking in source code from Swift Package Manager dependencies.
+# .build/
+
+# Carthage
+#
+# Add this line if you want to avoid checking in source code from Carthage dependencies.
+# Carthage/Build/
+
+# Fastlane
+#
+# It is recommended to not store the screenshot in the git repo.
+# fastlane/report.xml
+# fastlane/Preview.html
+# fastlane/screenshots/
+# fastlane/test_output
+
+# Code coverage
+*.framework
+*.xcresult
